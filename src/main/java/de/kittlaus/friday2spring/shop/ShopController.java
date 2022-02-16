@@ -15,7 +15,7 @@ public class ShopController {
         this.shopService = shopService;
     }
 
-    @GetMapping
+   /* @GetMapping
     public List<Product> getAllProducts(){
         return shopService.needAllProducts();
     }
@@ -34,5 +34,5 @@ public class ShopController {
     public void deleteOneProduct(@RequestBody Product productToDelete){
         shopService.deleteThisProduct(productToDelete);
     }
-
+*/
 }
